@@ -10,7 +10,7 @@ import {useRouter} from "vue-router";
 
 const router = useRouter()
 function handleBtn () {
-  window.open('https://catalinmuresian.github.io/app-a/', '_blank');
+  window.location.href = 'https://catalinmuresian.github.io/app-a/'
 }
 
 </script>
