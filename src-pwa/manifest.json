@@ -1,7 +1,14 @@
 {
+  "name": "App B",
+  "short_name": "AppB",
+  "description": "Descrierea aplicației tale",
+  "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
-  "theme_color": "#027be3",
+  "theme_color": "#1976d2",
+  "start_url": "/app-b/",
+  "scope": "/app-b/",
+  "categories": ["productivity", "utilities"],
   "icons": [
     {
       "src": "icons/icon-128x128.png",
